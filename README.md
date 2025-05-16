@@ -5,13 +5,15 @@
 ## "Stockformer" Code Overview
 This paper, titled "Stockformer: A Price-Volume Factor Stock Selection Model Based on Wavelet Transform and Multi-Task Self-Attention Networks," is currently under review at Expert Systems with Applications. You can read the preprint version of the paper on SSRN: [https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4648073](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4648073).
 
-This link provides access to the full text of the paper as submitted, allowing readers to explore the detailed methodology and findings prior to publication.
-
+This work has now been formally published in **Expert Systems with Applications**.  
+You can read the full article here:  
+[https://www.sciencedirect.com/science/article/pii/S0957417425004257?dgcid=coauthor](https://www.sciencedirect.com/science/article/pii/S0957417425004257?dgcid=coauthor).
 
 ## Original Dataset and Sub-Datasets After Partition
 Due to the large size of both the original data (which contains 360 price and volume factors) and the processed data (which also contains 360 factors), the author has stored them on a cloud drive for readers to use. The folder `Stock_CN_2018-03-01_2024-03-01` contains the original data, while other folders hold the processed sub-datasets.
 
-Original data link: [raw_data](https://pan.baidu.com/s/1dnmzt9F2Ug9bCQDZwZ2e4Q?pwd=ykqp)
+- **Original data and Sub-Datasets** (raw, compressed): [Baidu Netdisk](https://pan.baidu.com/s/1dnmzt9F2Ug9bCQDZwZ2e4Q?pwd=ykqp)  
+- **Original data and Sub-Datasets** (decompressed, ready to view): [Google Drive](https://drive.google.com/drive/folders/1ZJpjHiIIkjfbtPIcAmi2nfLNv6VC5ym_?usp=drive_link)
 
 There are a total of 14 sub-datasets after processing, providing data support for backtesting over different time periods. The detailed contents of these datasets are as follows:
 
@@ -104,6 +106,6 @@ python Multitask_Stockformer_models.py --config Multitask_Stock.conf
 
 If you use this model or the dataset in your research, please cite our paper as follows:
 
-Ma, Bohan; Xue, Yushan; Lu, Yuan; Chen, Jing. "Stockformer: A Price-Volume Factor Stock Selection Model Based on Wavelet Transform and Multi-Task Self-Attention Networks," June 17, 2024. Available at SSRN: [https://ssrn.com/abstract=4648073](https://ssrn.com/abstract=4648073) or DOI: [10.2139/ssrn.4648073](http://dx.doi.org/10.2139/ssrn.4648073)
+Ma, Bohan; Xue, Yushan; Lu, Yuan & Chen, Jing. (2025). "Stockformer: A price-volume factor stock selection model based on wavelet transform and multi-task self-attention networks". Expert Systems with Applications, 273, 126803. DOI: [https://doi.org/10.1016/j.eswa.2025.126803](https://doi.org/10.1016/j.eswa.2025.126803)
 
 This citation provides all the necessary details such as the full list of authors, the title of the paper, the publication date, and direct links to the paper for easy access and verification.

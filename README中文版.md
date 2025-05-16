@@ -5,13 +5,15 @@
 ## “Stockformer”代码概览
 本文题为“Stockformer：基于小波变换和多任务自注意力网络的价格-量因子股票选择模型”，目前正在《Expert Systems with Applications》期刊审稿中。您可以在SSRN阅读预印本原文：[https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4648073](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4648073)。
 
-通过此链接，读者可以访问提交的完整论文文本，从而在出版前了解详细的方法论和研究发现。
-
+此研究现已正式发表于《Expert Systems with Applications》。
+您可以在此阅读完整文章：
+[https://www.sciencedirect.com/science/article/pii/S0957417425004257?dgcid=coauthor](https://www.sciencedirect.com/science/article/pii/S0957417425004257?dgcid=coauthor)
 
 ## 原始数据集和划分后的子数据集
 由于原始数据（包含360个量价因子）和处理后数据（包含360个量价因子）较大，作者已将其存储在云盘中，供读者使用，其中，`Stock_CN_2018-03-01_2024-03-01`为原始数据，其余文件夹为处理后子数据集。
 
-原始数据链接： [raw_data](https://pan.baidu.com/s/1dnmzt9F2Ug9bCQDZwZ2e4Q?pwd=ykqp)
+- **原始数据和子数据集**（压缩包）：[百度网盘](https://pan.baidu.com/s/1dnmzt9F2Ug9bCQDZwZ2e4Q?pwd=ykqp)  
+- **原始数据和子数据集**（已解压，可在线查看）：[Google 云端硬盘](https://drive.google.com/drive/folders/1ZJpjHiIIkjfbtPIcAmi2nfLNv6VC5ym_?usp=drive_link)
 
 处理后总共有14个子数据集，为不同的时间段的回测提供相应的数据支持，详细的数据内容如下所示：
 
@@ -107,6 +109,6 @@ python Multitask_Stockformer_models.py --config Multitask_Stock.conf
 
 如果您在研究中使用了此模型或数据集，请按以下方式引用我们的论文：
 
-Ma, Bohan; Xue, Yushan; Lu, Yuan; Chen, Jing. "Stockformer: A Price-Volume Factor Stock Selection Model Based on Wavelet Transform and Multi-Task Self-Attention Networks," June 17, 2024. Available at SSRN: [https://ssrn.com/abstract=4648073](https://ssrn.com/abstract=4648073) or DOI: [10.2139/ssrn.4648073](http://dx.doi.org/10.2139/ssrn.4648073)
+Ma, Bohan; Xue, Yushan; Lu, Yuan & Chen, Jing. (2025). "Stockformer: A price-volume factor stock selection model based on wavelet transform and multi-task self-attention networks". Expert Systems with Applications, 273, 126803. DOI: [https://doi.org/10.1016/j.eswa.2025.126803](https://doi.org/10.1016/j.eswa.2025.126803)
 
 此引用提供了所有必要的细节，如完整的作者名单、论文标题、发布日期和直接链接到论文的链接，便于访问和验证。
